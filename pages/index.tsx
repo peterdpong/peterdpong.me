@@ -92,17 +92,18 @@ export default function Index() {
             <FadeInWrapper css={{ "--delay-num": 2 }}>
               <HeroText>
                 I am a Software Engineer at{" "}
-                <Link href="https://www.figma.com/">Figma</Link> working on
-                FigJam! I love building helpful, delightful, and useful software
-                with a high level of craft and detail. In the past, I was an intern at Figma helping build{" "}
-                <Link href="https://www.figma.com/figjam/">FigJam</Link> and at{" "}
-                <Link href="https://www.prodigygame.com/">Prodigy</Link> working
-                on an in-house game/prefab editor.
+                <Link href="https://www.figma.com/">Figma</Link> working on new
+                iniatives, and previously worked on FigJam! I love building
+                helpful, delightful, and useful software with a high level of
+                craft and detail. In the past, I was an intern at Figma helping
+                build <Link href="https://www.figma.com/figjam/">FigJam</Link>{" "}
+                and at <Link href="https://www.prodigygame.com/">Prodigy</Link>{" "}
+                working on an in-house game/prefab editor.
               </HeroText>
-              <HorizontalRule/>
+              <HorizontalRule />
             </FadeInWrapper>
           </Section>
-          {/* <Section>
+          <Section>
             <FadeInWrapper css={{ "--delay-num": 5 }}>
               <Row>
                 <Link href="https://twitter.com/peterdpong">
@@ -110,8 +111,8 @@ export default function Index() {
                   <Image
                     src="img/nav-arrow.svg"
                     alt="navigation-arrow"
-                    width={12}
-                    height={12}
+                    width={10}
+                    height={10}
                   />
                 </Link>
                 <Link href="https://www.github.com/peterdpong">
@@ -119,8 +120,8 @@ export default function Index() {
                   <Image
                     src="img/nav-arrow.svg"
                     alt="navigation-arrow"
-                    width={12}
-                    height={12}
+                    width={10}
+                    height={10}
                   />
                 </Link>
                 <Link href="https://www.figma.com/@petah">
@@ -128,22 +129,22 @@ export default function Index() {
                   <Image
                     src="img/nav-arrow.svg"
                     alt="navigation-arrow"
-                    width={12}
-                    height={12}
+                    width={10}
+                    height={10}
                   />
                 </Link>
-                <Link href="resume/Resume.pdf">
+                {/* <Link href="resume/Resume.pdf">
                   Resume
                   <Image
                     src="img/nav-arrow.svg"
                     alt="navigation-arrow"
-                    width={12}
-                    height={12}
+                    width={10}
+                    height={10}
                   />
-                </Link>
+                </Link> */}
               </Row>
             </FadeInWrapper>
-          </Section> */}
+          </Section>
           <Section>
             <FadeInWrapper css={{ "--delay-num": 6 }}>
               <SectionTitle>Work</SectionTitle>
@@ -154,10 +155,12 @@ export default function Index() {
             <FadeInWrapper css={{ "--delay-num": 7 }}>
               <WorkItemDate>2023 — PRESENT</WorkItemDate>
               <WorkItemTitle>Figma</WorkItemTitle>
-              <WorkItemJobTitle>SOFTWARE ENGINEER, FIGJAM</WorkItemJobTitle>
+              <WorkItemJobTitle>
+                Software Engineer, New Initatives & FigJam
+              </WorkItemJobTitle>
             </FadeInWrapper>
 
-            <FadeInWrapper css={{ "--delay-num": 2 }}>
+            <FadeInWrapper css={{ "--delay-num": 8 }}>
               <Card>
                 <FloatingCardRight
                   css={{
@@ -190,15 +193,15 @@ export default function Index() {
           </Section>
 
           <Section>
-            <FadeInWrapper css={{ "--delay-num": 7 }}>
+            <FadeInWrapper css={{ "--delay-num": 9 }}>
               <WorkItemDate>2022</WorkItemDate>
               <WorkItemTitle>Figma</WorkItemTitle>
               <WorkItemJobTitle>
-                SOFTWARE ENGINEERING INTERN, FIGJAM
+                Software Engineering Intern, FigJam
               </WorkItemJobTitle>
             </FadeInWrapper>
 
-            <FadeInWrapper css={{ "--delay-num": 4 }}>
+            <FadeInWrapper css={{ "--delay-num": 10 }}>
               <Card>
                 <FloatingCardLeft
                   css={{
@@ -260,170 +263,52 @@ export default function Index() {
           </Section>
 
           <Section>
-            <FadeInWrapper css={{ "--delay-num": 7 }}>
+            <FadeInWrapper css={{ "--delay-num": 11 }}>
               <WorkItemDate>2022</WorkItemDate>
               <WorkItemTitle>University of Toronto</WorkItemTitle>
               <WorkItemJobTitle>
-                TEACHING ASSISTANT, ECE297: SOFTWARE DESIGN AND COMMUNICATION
+                Teaching Assistant, ECE297: Software Design and Communciation
               </WorkItemJobTitle>
             </FadeInWrapper>
           </Section>
 
           <Section>
-            <FadeInWrapper css={{ "--delay-num": 7 }}>
+            <FadeInWrapper css={{ "--delay-num": 12 }}>
               <WorkItemDate>2021</WorkItemDate>
               <WorkItemTitle>Prodigy</WorkItemTitle>
               <WorkItemJobTitle>
-                GAME DEVELOPER INTERN, GAME PLATFORM
+                Game Developer Intern, Game Platform
               </WorkItemJobTitle>
             </FadeInWrapper>
           </Section>
-
-          {/* <Section>
-            <FadeInWrapper css={{ "--delay-num": 7 }}>
-              <Item>
-                <div>
-                  <a href="https://www.figma.com/">
-                    <Icon
-                      style={{ backgroundColor: "#1e1e1e" }}
-                      src="./img/figma.svg"
-                      alt="Figma Logo"
-                    />
-                    <IconHoverEffect
-                      src="./img/figma.svg"
-                      alt="Faded and Blurred Figma Logo"
-                    />
-                  </a>
-                </div>
-                <ItemContent>
-                  <Row>
-                    <ItemTitle>Figma</ItemTitle>
-                    <Pill>2023 – Present</Pill>
-                  </Row>
-                  <ItemSubtitle>Software Engineer, FigJam</ItemSubtitle>
-                  <Row>
-                    <Pill>C++</Pill>
-                    <Pill>TypeScript</Pill>
-                    <Pill>React</Pill>
-                  </Row>
-                </ItemContent>
-              </Item>
-            </FadeInWrapper>
-            <FadeInWrapper css={{ "--delay-num": 8 }}>
-              <Item>
-                <div>
-                  <a href="https://www.figma.com/">
-                    <Icon
-                      style={{ backgroundColor: "#1e1e1e" }}
-                      src="./img/figma.svg"
-                      alt="Figma Logo"
-                    />
-                    <IconHoverEffect
-                      src="./img/figma.svg"
-                      alt="Faded and Blurred Figma Logo"
-                    />
-                  </a>
-                </div>
-                <ItemContent>
-                  <Row>
-                    <ItemTitle>Figma</ItemTitle>
-                    <Pill>2022</Pill>
-                  </Row>
-                  <ItemSubtitle>
-                    Software Engineering Intern, FigJam
-                  </ItemSubtitle>
-                  <Row>
-                    <Pill>C++</Pill>
-                    <Pill>TypeScript</Pill>
-                    <Pill>React</Pill>
-                  </Row>
-                </ItemContent>
-              </Item>
-            </FadeInWrapper>
-            <FadeInWrapper css={{ "--delay-num": 9 }}>
-              <Item>
-                <div>
-                  <a href="https://www.utoronto.ca/">
-                    <Icon
-                      style={{ backgroundColor: "#00234b" }}
-                      src="./img/uoft.svg"
-                      alt="University of Toronto Logo"
-                    />
-                    <IconHoverEffect
-                      src="./img/uoft.svg"
-                      alt="Faded and Blurred University of Toronto Logo"
-                    />
-                  </a>
-                </div>
-                <ItemContent>
-                  <Row>
-                    <ItemTitle>University of Toronto</ItemTitle>
-                    <Pill>2022</Pill>
-                  </Row>
-                  <ItemSubtitle>Teaching Assistant</ItemSubtitle>
-                  <ItemSubtitle>
-                    ECE297: Software Design and Communication
-                  </ItemSubtitle>
-                </ItemContent>
-              </Item>
-            </FadeInWrapper>
-            <FadeInWrapper css={{ "--delay-num": 10 }}>
-              <Item>
-                <div>
-                  <a href="https://www.prodigygame.com/">
-                    <Icon
-                      style={{ backgroundColor: "#ebebeb" }}
-                      src="./img/prodigy.svg"
-                      alt="Prodigy Logo"
-                    />
-                    <IconHoverEffect
-                      src="./img/prodigy.svg"
-                      alt="Faded and Blurred Prodigy Logo"
-                    />
-                  </a>
-                </div>
-                <ItemContent>
-                  <Row>
-                    <ItemTitle>Prodigy</ItemTitle>
-                    <Pill>2021</Pill>
-                  </Row>
-                  <ItemSubtitle>
-                    Game Platform, Game Developer Intern
-                  </ItemSubtitle>
-                  <Row>
-                    <Pill>TypeScript</Pill>
-                    <Pill>Electron</Pill>
-                    <Pill>React</Pill>
-                    <Pill>Redux</Pill>
-                  </Row>
-                </ItemContent>
-              </Item>
-            </FadeInWrapper>
-          </Section> */}
-
           <Section>
-            <FadeInWrapper css={{ "--delay-num": 11 }}>
+            <HorizontalRule />
+          </Section>
+          <Section>
+            <FadeInWrapper css={{ "--delay-num": 13 }}>
               <SectionTitle>Education</SectionTitle>
             </FadeInWrapper>
           </Section>
           <Section>
-            <FadeInWrapper css={{ "--delay-num": 12 }}>
+            <FadeInWrapper css={{ "--delay-num": 14 }}>
               <WorkItemDate>2019 — 2023</WorkItemDate>
               <WorkItemTitle>University of Toronto</WorkItemTitle>
               <WorkItemJobTitle>
-                BACHELORS OF APPLIED SCIENCE, COMPUTER ENGINEERING
+                Bachelors of Applied Science, Computer Engineering
               </WorkItemJobTitle>
               <WorkItemJobTitle>
-                HIGH HONOURS AND DEAN&apos;S HONOUR LIST
+                High Honors and Dean&apos;s Honour List
               </WorkItemJobTitle>
             </FadeInWrapper>
           </Section>
-
           <Section>
-            <FadeInWrapper css={{ "--delay-num": 13 }}>
+            <HorizontalRule />
+          </Section>
+          <Section>
+            <FadeInWrapper css={{ "--delay-num": 15 }}>
               <SectionTitle>Projects</SectionTitle>
             </FadeInWrapper>
-            <FadeInWrapper css={{ "--delay-num": 14 }}>
+            <FadeInWrapper css={{ "--delay-num": 16 }}>
               <Item>
                 <ItemContent>
                   <Link href="https://www.figma.com/community/widget/1109318554624490060/Color-Swatch">
@@ -560,4 +445,5 @@ const CardDescription = styled("div", {
 const Row = styled("div", {
   display: "flex",
   flexWrap: "wrap",
+  gap: "0.5rem",
 });

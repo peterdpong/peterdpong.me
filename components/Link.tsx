@@ -4,16 +4,16 @@ export const Link = styled("a", {
   fontFamily: "var(--dm-sans)",
   fontWeight: 400,
   color: "#1E1E1E",
-  textDecorationThickness: "2px",
+  textDecorationThickness: "1px",
   transition: "text-decoration-color 0.15s ease-in",
   "& img": {
-    transition: "all 0.1s ease-in-out",
+    transition: "all 0.15s ease",
     marginLeft: "0.15em",
   },
   "&:hover": {
     textDecorationColor: "#8c867b",
     "& img": {
-      transform: "rotate(47deg)",
+      transform: "rotate(48deg)",
     },
   },
 });

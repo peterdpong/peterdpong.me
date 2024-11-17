@@ -19,7 +19,7 @@ const Subtitle = styled("h1", {
 const SectionTitle = styled("h1", {
   fontFamily: "var(--dm-sans)",
   fontWeight: 500,
-  fontSize: "1.75rem",
+  fontSize: "1.5rem",
   letterSpacing: "-1px",
   lineHeight: "2rem",
   color: "#1E1E1E",
@@ -53,7 +53,8 @@ const ItemTitle = styled("div", {
 const WorkItemTitle = styled("div", {
   fontFamily: "var(--dm-sans)",
   fontWeight: 400,
-  fontSize: "1.75em",
+  fontSize: "1.35em",
+  letterSpacing: "-0.5px",
   color: "#1E1E1E",
 });
 
@@ -61,13 +62,15 @@ const WorkItemDate = styled("div", {
   fontFamily: "var(--dm-sans)",
   fontWeight: 400,
   fontSize: "0.85rem",
+  letterSpacing: "-0.25px",
   color: "#1E1E1E",
 });
 
 const WorkItemJobTitle = styled("div", {
   fontFamily: "var(--dm-sans)",
   fontWeight: 400,
-  fontSize: "1rem",
+  fontSize: "1.05rem",
+  letterSpacing: "-0.25px",
   color: "#1E1E1E",
 });
 
@@ -80,8 +83,11 @@ const ItemSubtitle = styled("div", {
 
 const HorizontalRule = styled("hr", {
   border: 0,
-  height: "1.5px",
-  backgroundImage: "linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0))"
+  height: "1px",
+  backgroundSize: "8px 1px",
+  backgroundRepeat: "repeat-x",
+  backgroundImage:
+    "linear-gradient(to right, #303030 50%, hsla(0, 0%, 100%, 0) 0);",
 });
 
 export {
