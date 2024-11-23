@@ -93,7 +93,7 @@ export default function Index() {
               <HeroText>
                 I am a Software Engineer at{" "}
                 <Link href="https://www.figma.com/">Figma</Link> working on new
-                iniatives, and previously worked on FigJam! I love building
+                initiatives, and previously worked on FigJam! I love building
                 helpful, delightful, and useful software with a high level of
                 craft and detail. In the past, I was an intern at Figma helping
                 build <Link href="https://www.figma.com/figjam/">FigJam</Link>{" "}
@@ -297,7 +297,7 @@ export default function Index() {
                 Bachelors of Applied Science, Computer Engineering
               </WorkItemJobTitle>
               <WorkItemJobTitle>
-                High Honors and Dean&apos;s Honour List
+                High Honours and Dean&apos;s Honour List
               </WorkItemJobTitle>
             </FadeInWrapper>
           </Section>
